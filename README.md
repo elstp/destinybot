@@ -1,5 +1,5 @@
 # destinybot
-1. 该插件为QQ机器人OPQ BOT插件
+1. 该插件为QQ机器人OPQ BOT插件使用spring boot 2.0开发
 2. 使用方法以及下载地址:https://github.com/topics/opqbot
 > 功能:
 查询服务器信息生成状态图片,记录过去10小时的服务器玩家变化
