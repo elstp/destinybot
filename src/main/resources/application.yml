@@ -21,7 +21,7 @@ query:
   #查询接口
   url: "http://api.arma3bbs.com:81/api/1.0/"
   #查询API的token
-  token: "E044CB40-CE91-4BC1-A1F8-6E6D226143F0"
+  token: "****-****************"
 web-socketio:
   #OPQ机器人地址 socket地址
   host: "http://127.0.0.1:8888"
