@@ -1,0 +1,39 @@
+server:
+  port: 8080
+  #redis缓存设置
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    database: 0
+    jedis:
+      pool:
+        max-active: 50
+        max-wait: 3000
+        max-idle: 20
+        min-idle: 2
+    timeout: 5000
+robot:
+  #QQ机器人qq
+  qq: 3131625212
+query:
+  #查询接口
+  url: "http://api.arma3bbs.com:81/api/1.0/"
+  #查询API的token
+  token: "E044CB40-CE91-4BC1-A1F8-6E6D226143F0"
+web-socketio:
+  #OPQ机器人地址 socket地址
+  host: "http://127.0.0.1:8888"
+  #重连尝试次数
+  reconnectionAttempts: 9999
+  #失败重连的时间间隔(ms)
+  reconnectionDelay: 1000
+  #连接超时时间(ms)
+  timeout: 20000
+  #服务器列表信息
+serverList:
+  data: "REDISID1,5F,119.188.248.105,2303|REDISID2,5F,119.188.248.105,2303"
+Img:
+  #D:\\PSD\\ARMA3_BG.png 图片地址
+  imgPath: "/root/java/ARMA3_BG.png"
